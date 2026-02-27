@@ -499,7 +499,7 @@ export default function Portfolio() {
                 transition={{ duration: 0.4 }}
               >
                 
-                  <img src="/Images/my_pic.jpeg" alt="Riya Shinde" className="w-full h-full object-cover" />
+                  <img src="/Images/profile.jpeg" alt="Riya Shinde" className="w-full h-full object-cover" />
                 
 
                
