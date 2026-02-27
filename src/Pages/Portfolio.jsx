@@ -69,7 +69,7 @@ const PROJECTS = [
     desc: "Healthcare appointment platform with doctor profiles, real-time slot management, notifications, and Razorpay integration.",
     tech: ["React.js", "Tailwind", "Node.js", "MongoDB", "Express"],
     color: "#FF6B9D",
-    link: "https://nidhivan-mern-9zltcdpkg-riya2704-coders-projects.vercel.app",
+    link: "https://nidhivan-mern.vercel.app/",
     github: "https://github.com/riya2704-coder/Nidhivan-mern.git",
     emoji: "🏥",
   }

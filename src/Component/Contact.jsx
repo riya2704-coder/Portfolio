@@ -252,9 +252,9 @@ export default function Contact() {
                             <div style={{ display: "flex", flexDirection: "column", gap: 20 }}>
                                 {/* Text fields */}
                                 {[
-                                    { label: "Your Name", name: "name", placeholder: "Aapka naam likhein", type: "text" },
+                                    { label: "Your Name", name: "name", placeholder: "Enter Your Name", type: "text" },
                                     { label: "Email Address", name: "email", placeholder: "email@example.com", type: "email" },
-                                    { label: "Subject", name: "subject", placeholder: "Project ke baare mein", type: "text" },
+                                    { label: "Subject", name: "subject", placeholder: "Tell me about your project", type: "text" },
                                 ].map((field) => (
                                     <div key={field.name}>
                                         <label style={{ display: "block", fontSize: 13, color: "rgba(255,255,255,0.6)", marginBottom: 8, fontWeight: 500 }}>
@@ -285,7 +285,7 @@ export default function Contact() {
                                         name="message"
                                         value={formData.message}
                                         onChange={handleChange}
-                                        placeholder="Apna message likhein..."
+                                        placeholder="Write your message..."
                                         rows={5}
                                         style={{ ...inputBase, resize: "vertical" }}
                                         onFocus={(e) => Object.assign(e.target.style, focusStyle)}
